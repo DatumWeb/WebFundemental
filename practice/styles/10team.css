@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    text-align: center;
+    border-color: #000000;
+    border-width: auto;
+    
+    
+}
+
+#logo {
+    align-content: left;
+}
