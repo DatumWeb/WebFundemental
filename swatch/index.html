@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swatch Events | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="content">
@@ -12,25 +13,27 @@
             <a id="logo_link" href="index.html">
                 <img class="logo" src="images/swatcheventslogo.JPG" alt="Swatch Events Logo">
             </a>
+            <hr>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="services.html">Services</a>
                 <a href="blog.html">Blog</a>
                 <a href="contactus.html">Contact Us</a>
             </nav>
+            <hr>
         </header>
 
         
         <div id="intro">
             <h1>Amazing Event Planning</h1>
             <p>Personal and low-stress event planning, whether it is your wedding, birthday, or business party</p>
-            <img id="cover-img" src="images/coverreal.jpg" alt="Pool Wedding">
         </div>
 
         <main class="home-page">
+            <img id="cover-img" src="images/coverreal.jpg" alt="Pool Wedding">
             <section id="why">
                 <h2>Why Swatch Events</h2>
-                <img src="images/Optimized-imghome-unsplash.jpg" alt="Happy Couple">
+                <img id="img-home" src="images/Optimized-imghome-unsplash.jpg" alt="Happy Couple">
                 <p>Planning events can be such a stressful and time-consuming experience
                      and often it can be hard to remember all the aspects of a great event,
                       but with Swatch Events we can help you achieve your dream event and make it unforgettable.
@@ -40,40 +43,40 @@
                 <h2>Services</h2>
                 <section class="wedding-mini">
                     <a id="wedding-mini-link" href="services.html">
-                        <img class="wedding-img" src="images/gazebo-wedding.jpg" alt="Gazebo Wedding">
+                        <img class="service-img" src="images/gazebo-wedding.jpg" alt="Gazebo Wedding">
                     </a>
-                    <h3>Weddings</h3>
-                    <p>Let's make your dreams come true</p>
+                    <h3 class="mini-title" >Weddings</h3>
+                    <p class="mini-description" >Let's make your dreams come true</p>
                 </section>
 
                 <section class="reception-mini">
                     <a id="reception-mini-link" href="services.html">
-                        <img class="reception-img" src="images/reception-toast.jpg" alt="Toast at Table">
+                        <img class="service-img" src="images/reception-toast.jpg" alt="Toast at Table">
                     </a>
-                    <h3>Receptions</h3>
-                    <p>Let's celebrate as we should</p>
+                    <h3 class="mini-title" >Receptions</h3>
+                    <p class="mini-description">Let's celebrate as we should</p>
                 </section>
 
                 <section class="company-mini">
                     <a id="company-mini-link" href="services.html">
-                        <img class="company-img" src="images/work-table.jpg" alt="Work Dinner">
+                        <img class="service-img" src="images/work-table.jpg" alt="Work Dinner">
                     </a>
-                    <h3>Compay Events</h3>
-                    <p>Let's do something a bit more professional</p>
+                    <h3 class="mini-title" >Compay Events</h3>
+                    <p class="mini-description">Let's do something a bit more professional</p>
                 </section>
 
                 <section class="other-mini">
                     <a id="other-mini-link" href="services.html">
-                        <img class="other-img" src="images/other-event.jpg" alt="Event">
+                        <img class="service-img" src="images/other-event.jpg" alt="Event">
                     </a>
-                    <h3>Other Events</h3>
-                    <p>Let's figure something out</p>
+                    <h3 class="mini-title" >Other Events</h3>
+                    <p class="mini-description">Let's figure something out</p>
                 </section>
             </section>
 
             <section id="who">
                 <h2>Who am I?</h2>
-                <img src="images/sabrina-headshot.jpg" alt="Picture of Me">
+                <img id="selfie" src="images/sabrina-headshot.jpg" alt="Picture of Me">
                 <p>My passion to plan and organize events has been with me since I was a kid.
                      I will be sure to work my hardest to make sure you need, and desires are met.
                       With my personal and involved approach to planning and working with you,
@@ -83,26 +86,29 @@
             </section>
         </main>
         <footer>
-
-            <div class="button-box">
-                <a class="get-in-touch" href="contactus.html">Get In Touch</a>
-            </div>
-
-
-            <div class="social">
-                <a href="https://www.instagram.com/swatchevents/?hl=en" target="_blank">
-                    <img src="images/insta-icon.png" alt="instagram icon">
+            <hr>
+            <div class="foot">
+                <a class="get-in-touch" href="contactus.html">
+                    <button class="button-box">Get In Touch
+                    </button>
                 </a>
-            </div>
-            
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/swatcheventslogo.JPG" alt="Swatch Events Logo">
-            </a>
-            <li>
-                <a href="site-plan.html">Swatch Site Plan</a>
-            </li>
-            
 
+                    <div class="social">
+                        <p>Follow us on Instagram: </p>
+                        <a href="https://www.instagram.com/swatchevents/?hl=en" target="_blank">
+                            <img id="insta-pic" src="images/insta-icon.png" alt="instagram icon">
+                        </a>
+                    </div>
+                
+                <a id="logo_link" href="index.html">
+                    <img class="logo" src="images/swatcheventslogo.JPG" alt="Swatch Events Logo">
+                </a>
+                
+            </div>
+            <hr>
+            <div id="site-link">
+                <a href="site-plan.html">Swatch Site Plan</a>
+            </div>
         </footer>
 
     </div>
