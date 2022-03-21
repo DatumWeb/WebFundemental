@@ -97,7 +97,7 @@ nav a:hover {
 
 /* css after header and first img on main page */
 
-#why {
+#why, #who {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 8em 1fr 1fr 1fr 1fr 8em;
@@ -203,11 +203,6 @@ nav a:hover {
     grid-row: 3/4;
 }
 
-#who {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 8em 1fr 1fr 1fr 1fr 8em;
-}
 
 #who h2 {
     grid-row: 1/2;
